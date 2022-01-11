@@ -4,8 +4,7 @@ class PagesController < ApplicationController
     end
 
     def agents
-        @agents = [ 'Jett', 'Viper', 'Raze', 'Omen', 'Sova', 'Sage', 'Brimstone', 'Reyna', 'Phoenix', 'Killjoy', 'Cypher', 'Skye', 'Breach', 'Astra', 'KAY/O', 'Yoru', 'Chamber' ]   
-    end 
+    end
 
     def weapons
 
