@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # For deagentse DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  root   "home#index"
+  root   to: "pages#index"
 
   get    "agents",          to: "agents#index"
   

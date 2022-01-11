@@ -1,17 +1,8 @@
 <h2>Edit agent</h2>
 
-<%= form_with model: @agent, local: true do |form| %>
-<p>
-<%= form.label :name %>
-<%= form.text_field :name %>
-</p>
-<p>
-<%= form.label :rating %>
-<%= form.text_field :rating %>
-</p>
-<p>
-<%= form.file_field :photo %>
-<%= form.submit "Done" %>
-</p>
-
+<%= simple_form_for(@agent) do |f| %>
+<%= f.input :name %>
+<%= f.input :rating %>
+<%= f.input :photo, as: :file %>
+<%= f.submit "Edit" %>
 <% end %>
