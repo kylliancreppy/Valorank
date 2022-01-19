@@ -14,6 +14,7 @@ class AgentsController < ApplicationController
       def create
       @agent = Agent.create(agent_params)
       @agent.save
+      redirect_to agents_path(@agent)
 
       end
 
@@ -25,7 +26,7 @@ class AgentsController < ApplicationController
       def update 
         @agent = Agent.find(params[:id])
         @agent.update(agent_params)
-        redirect_to agent_path(agent)
+        redirect_to agent_path(@agent)
       end
 
       private

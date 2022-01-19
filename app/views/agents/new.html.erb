@@ -1,6 +1,6 @@
 <h2>New agent</h2>
 
-<%= simple_form_for(agent) do |f| %>
+<%= simple_form_for(@agent) do |f| %>
 <%= f.input :name %>
 <%= f.input :rating %>
 <%= f.input :photo, as: :file %>

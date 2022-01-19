@@ -1,12 +1,16 @@
-<h1>Select your agent</h1>
+<h1>Agents</h1>
 <% @agents.each do |agent| %>
-<li>
 <div class="card-agent">
 <% if agent.photo.attached? %>
+<%= link_to agent_path(agent) do %>
+<div class="card-agent-content">
 <%= cl_image_tag agent.photo.key, height: 180, width: 150, crop: :fill %>
-<%= link_to agent.name, agent_path(agent) %>
+<%= agent.name %>
 </div>
-</li>
+
+<% end %>
+
+</div>
 
 <% end %>
 

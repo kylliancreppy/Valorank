@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Tungsten-Bold';
+    src: url('../fonts/Tungsten-Bold.ttf') format("truetype");
+  }
+
+h1 {
+    color : #e63946;
+    text-align: center;
+    font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+}
+
+.card-agent {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 2px;
+}
+
+.card-agent-content {
+    padding: 5px;
+    border: 2px solid black;
+    transition: transform .2s; /* Animation */
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    font-family: 'Tungsten-Bold',arial,georgia,sans-serif;
+}
+
+.card-agent-content:hover {
+    border: 2px solid rgb(199, 8, 8);
+    transform: scale(1.1);
+    font-family: Tungsten-Bold ,arial,georgia,sans-serif;
+}
+
+
+a:hover
+{
+  text-decoration: none;
+  color : #e63946;
+}
+
+a {
+    color: #e63946;
+}
