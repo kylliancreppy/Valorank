@@ -18,4 +18,6 @@ Rails.application.routes.draw do
 
 
   delete "agents/:id",      to: "agents#destroy"
+
+  get "weapons", to: "weapons#index"
 end

@@ -1,8 +1,8 @@
 <h1>Agents</h1>
 <% @agents.each do |agent| %>
-<div class="card-agent">
 <% if agent.photo.attached? %>
 <%= link_to agent_path(agent) do %>
+<div class="card-agent">
 <div class="card-agent-content">
 <%= cl_image_tag agent.photo.key, height: 180, width: 150, crop: :fill %>
 <%= agent.name %>
@@ -15,5 +15,5 @@
 <% end %>
 
 <%end%>
-<%= link_to "New agent", new_agent_path() %>
+<%= link_to "Weapons", weapons_path %>
 

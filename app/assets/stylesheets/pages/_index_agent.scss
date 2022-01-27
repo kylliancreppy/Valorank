@@ -11,12 +11,17 @@ h1 {
 
 .card-agent {
     display: flex;
+    flex-direction: row;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
     align-items: center;
     justify-content: center;
     padding: 5px;
-    margin: 2px;
+    width:10%;
+    margin: 0 5px;
+    float:left;
+  
+    
 }
 
 .card-agent-content {

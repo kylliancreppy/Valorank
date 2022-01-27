@@ -32,7 +32,7 @@ class AgentsController < ApplicationController
       private
 
       def agent_params
-        params.require(:agent).permit(:name, :photo, :rating)
+        params.require(:agent).permit(:name, :photo, :rating, :abilities)
       end
 
     end
