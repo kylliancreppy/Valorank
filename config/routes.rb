@@ -20,4 +20,16 @@ Rails.application.routes.draw do
   delete "agents/:id",      to: "agents#destroy"
 
   get "weapons", to: "weapons#index"
+
+  get "weapons/:id", to: "weapons#show", as: :weapon
+
+  get "weapons/new", to: "weapons#new"
+
+  post "weaponss", to: "weapons#create"
+
+  patch  "weapons/:id",      to: "weapons#update"
+  get    "weapons/:id/edit", to: "weapons#edit", as: :edit_weapon
+
+
+  delete "weapons/:id",      to: "weapons#destroy"
 end

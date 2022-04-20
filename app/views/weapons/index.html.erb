@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-dark bg-dark">
   <%= link_to agents_path, class: "navbar-brand" do %>
-    <%= "Valorank" %>
+    <%= "Barbelé" %>
   <% end %>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -13,18 +13,16 @@
  </ul>
 </div>
 </div>
-<div class="agents">
-<h1>Agents</h1>
-<% @agents.each do |agent| %>
-<% if agent.photo.attached? %>
-<%= link_to agent_path(agent) do %>
-<div class="card-agent">
-<div class="card-agent-content">
-<%= cl_image_tag agent.photo.key, height: 180, width: 150, crop: :fill %>
-<%= agent.name %>
+<h1>Weapons</h1>
+<% @weapons.each do |weapon| %>
+<% if weapon.photo.attached? %>
+<%= link_to weapon_path(weapon) do %>
+<div class="card-weapon">
+<div class="card-weapon-content">
+<%= cl_image_tag weapon.photo.key, height: 100, width: 300, crop: :fill %>
+<%= weapon.name %>
+<%= weapon.price %> 
 </div>
-</div>
-
 
 <% end %>
 
@@ -33,5 +31,3 @@
 <% end %>
 
 <%end%>
-
-
