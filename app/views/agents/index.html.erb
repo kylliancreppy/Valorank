@@ -13,6 +13,10 @@
  </ul>
 </div>
 </div>
+
+  <%= form_tag("/search_tag", method: :get) do %>
+  <% end %>
+  
 <div class="agents">
 <h1>Agents</h1>
 <% @agents.each do |agent| %>
