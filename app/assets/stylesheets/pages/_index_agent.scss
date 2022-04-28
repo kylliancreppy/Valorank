@@ -4,9 +4,11 @@
   }
 
 h1 {
-    color : #e63946;
+    color : black;
     text-align: center;
     font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+    padding:10px;
+    font-family: fantasy;
 }
 
 .card-agent {
@@ -25,7 +27,7 @@ h1 {
 }
 
 .card-agent-content {
-    padding: 5px;
+   
     border: 2px solid black;
     transition: transform .2s; /* Animation */
     width: 90%;
@@ -35,7 +37,6 @@ h1 {
 }
 
 .card-agent-content:hover {
-    border: 2px solid rgb(199, 8, 8);
     transform: scale(1.1);
     font-family: Tungsten-Bold ,arial,georgia,sans-serif;
 }
@@ -81,5 +82,11 @@ a {
 #title {
     color: white;
     margin-left: -75rem;
+
+}
+.agent-subtitle {
+    font-family: fantasy;
+    color: aliceblue;
+    background-color: black;
 
 }
