@@ -1,14 +1,36 @@
 @font-face {
-    font-family: 'Tungsten-Bold';
-    src: url('../fonts/Tungsten-Bold.ttf') format("truetype");
+    font-family: 'Valorant';
+    src: url('/assets/Valorant');
   }
+
+  @font-face {
+    font-family: 'Tungsten-Bold';
+    src: url('/assets/Tungsten-Bold');
+  }
+
+  @font-face {
+    font-family: 'Cynatar';
+    src: url('/assets/Cynatar');
+  }
+
+  @font-face {
+    font-family: 'Milky_Nice';
+    src: url('/assets/Milky_Nice');
+  }
+
+  @font-face {
+    font-family: 'MilkyNice-Clean';
+    src: url('/assets/MilkyNice-Clean');
+  }
+
+
 
 h1 {
     color : black;
     text-align: center;
     font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
     padding:10px;
-    font-family: fantasy;
+   
 }
 
 .card-agent {
@@ -82,11 +104,19 @@ a {
 #title {
     color: white;
     margin-left: -75rem;
+    font-family: 'Valorant', 'Arial Black', sans-serif;
+    font-size: 5rem;
+
 
 }
 .agent-subtitle {
-    font-family: fantasy;
+    font-family: 'Tungsten-Bold', 'Arial Black', sans-serif;
     color: aliceblue;
     background-color: black;
 
+}
+
+.navbar-brand {
+    font-family: 'Valorant', 'Arial Black', sans-serif;
+    justify-content: center;
 }

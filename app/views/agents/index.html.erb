@@ -21,14 +21,14 @@
 </div>
 
 <div class="agents">
-<h1>Agents</h1>
+<h1>AGENTS</h1>
 <% @agents.each do |agent| %>
 <% if agent.photo.attached? %>
 <%= link_to agent_path(agent) do %>
 <div class="card-agent">
 <div class="card-agent-content">
 <%= cl_image_tag agent.photo.key, height: 180, width: 150, crop: :fill %>
-<div class="agent-subtitle"><%= agent.name %></div>
+<div class="agent-subtitle"><%= agent.name.upcase %></div>
 </div>
 </div>
 
