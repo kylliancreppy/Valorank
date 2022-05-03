@@ -21,7 +21,7 @@
 </div>
 
 <div class="agents">
-<h1>AGENTS</h1>
+<h2>AGENTS</h2>
 <% @agents.each do |agent| %>
 <% if agent.photo.attached? %>
 <%= link_to agent_path(agent) do %>
@@ -34,11 +34,13 @@
 
 
 <% end %>
-
 </div>
+
 
 <% end %>
 
+
 <%end%>
 
+<div><h2>RANKING</h2></div>
 

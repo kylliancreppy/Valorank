@@ -40,7 +40,8 @@ agents =  [
     {name: "KAY/O", photo:"app/assets/images/V/KAYO_icon.png", rating: 5},
     {name: "Yoru", photo:"app/assets/images/V/Yoru_icon.png", rating: 5},
     {name: "Chamber", photo:"app/assets/images/V/Chamber_icon.png", rating: 5},
-    {name: "Neon", photo:"app/assets/images/V/Neon_icon.png", rating: 5}
+    {name: "Neon", photo:"app/assets/images/V/Neon_icon.png", rating: 5},
+    {name: "Fade", photo:"https://static.wikia.nocookie.net/valorant/images/a/a6/Fade_icon.png/revision/latest/scale-to-width-down/256?cb=20220427140722", rating: 5}
 ]
 
 agents.each do |agent|
