@@ -67,8 +67,13 @@ a {
     border-bottom: 1px solid #e63946;
 }
 
-.agents {
-    align-items: center;
+.container-agents {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+  flex-wrap: wrap;
 }
 
 .card-agent {
@@ -76,7 +81,7 @@ a {
    border: 2px solid black;
    height: 13rem;
    width: 12rem;
-   margin: 2rem;
+   margin: 1rem;
 }
 
 .banner {
@@ -106,5 +111,6 @@ h2 {
     text-align: center;
     font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
     padding:10px;
+    margin-top: 1rem;
    
 }

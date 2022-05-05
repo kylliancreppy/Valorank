@@ -24,7 +24,7 @@ end
 
 agents =  [
     {name: "Jett", photo:"app/assets/images/V/Jett_icon.png", rating: 5},
-    {name: "Viper", photo:"app/assets/images/V/Viper_icon.png", rating: 5},
+    {name: "Viper", photo:"https://static.wikia.nocookie.net/valorant/images/5/5f/Viper_icon.png/revision/latest/scale-to-width-down/256?cb=20201128234408", rating: 5},
     {name: "Raze", photo:"app/assets/images/V/Raze_icon.png", rating: 5},
     {name: "Omen", photo:"app/assets/images/V/Omen_icon.png", rating: 5},
     {name: "Sova", photo:"app/assets/images/V/Sova_icon.png", rating: 5},
@@ -38,7 +38,7 @@ agents =  [
     {name: "Breach", photo:"app/assets/images/V/Breach_icon.png", rating: 5},
     {name: "Astra", photo:"/home/kcreppy/code/kylliancreppy/valorank/app/assets/images/V/Astra_icon.png",rating: 5},
     {name: "KAY/O", photo:"app/assets/images/V/KAYO_icon.png", rating: 5},
-    {name: "Yoru", photo:"app/assets/images/V/Yoru_icon.png", rating: 5},
+    {name: "Yoru", photo:"https://static.wikia.nocookie.net/valorant/images/d/d4/Yoru_icon.png/revision/latest/scale-to-width-down/256?cb=20210112211830", rating: 5},
     {name: "Chamber", photo:"app/assets/images/V/Chamber_icon.png", rating: 5},
     {name: "Neon", photo:"app/assets/images/V/Neon_icon.png", rating: 5},
     {name: "Fade", photo:"https://static.wikia.nocookie.net/valorant/images/a/a6/Fade_icon.png/revision/latest/scale-to-width-down/256?cb=20220427140722", rating: 5}
