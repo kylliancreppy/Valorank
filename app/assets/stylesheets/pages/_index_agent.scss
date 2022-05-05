@@ -33,35 +33,13 @@ h1 {
    
 }
 
-.card-agent {
+#agent-subtitle {
+  align-items: center;
 text-align: center;
-    padding: 5px;
-    width:10%;
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-    
-  
-    
+background-color: black;
+width: 12rem;
+justify-content: center;
 }
-
-.card-agent-content {
-   
-    border: 2px solid black;
-    transition: transform .2s; /* Animation */
-    width: 90%;
-    height: 90%;
-    margin: 0 auto;
-    font-family: 'Tungsten-Bold',arial,georgia,sans-serif;
-}
-
-.card-agent-content:hover {
-    transform: scale(1.1);
-    font-family: Tungsten-Bold ,arial,georgia,sans-serif;
-}
-
 
 a:hover
 {
@@ -75,7 +53,7 @@ a {
 
 .card-weapon-content {
     background-color: rgb(65, 68, 61);
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -91,6 +69,14 @@ a {
 
 .agents {
     align-items: center;
+}
+
+.card-agent {
+    font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+   border: 2px solid black;
+   height: 13rem;
+   width: 12rem;
+   margin: 2rem;
 }
 
 .banner {
@@ -109,12 +95,7 @@ a {
 
 
 }
-.agent-subtitle {
-    font-family: 'Tungsten-Bold', 'Arial Black', sans-serif;
-    color: aliceblue;
-    background-color: black;
 
-}
 
 .navbar-brand {
     font-family: 'Valorant', 'Arial Black', sans-serif;
