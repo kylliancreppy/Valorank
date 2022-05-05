@@ -30,7 +30,7 @@ agents =  [
     {name: "Sova", photo:"app/assets/images/V/Sova_icon.png", rating: 5},
     {name: "Sage", photo:"app/assets/images/V/Sage_icon.png", rating: 5},
     {name: "Brimstone", photo:"app/assets/images/V/Brimstone_icon.png", rating: 5},
-    {name: "Reyna", photo:"app/assets/images/V/Reyna_icon.png", rating: 5},
+    {name: "Reyna", photo:"https://static.wikia.nocookie.net/valorant/images/b/b0/Reyna_icon.png/revision/latest/scale-to-width-down/256?cb=20200607180311", rating: 5},
     {name: "Phoenix", photo:"app/assets/images/V/Phoenix_icon.png", rating: 5},
     {name: "Killjoy", photo:"app/assets/images/V/Killjoy_icon.png", rating: 5},
     {name: "Cypher", photo:"app/assets/images/V/Cypher_icon.png", rating: 5},
