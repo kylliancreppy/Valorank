@@ -1,17 +1,16 @@
-<div class="navbar navbar-expand-sm navbar-dark bg-dark">
+<div class="navb">
   <%= link_to agents_path, class: "navbar-brand" do %>
     <%= "Valorank" %>
   <% end %>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-     <div class="collapse navbar-collapse" id="navbarNav">
+
       <ul class="navbar-nav">
- <div class="nav-item"><%= link_to "Agents", agents_path, class:"nav-link" %></div>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <%= image_tag "https://cdn-icons-png.flaticon.com/512/556/556206.png", height: 30 %>
+ <% end %>
+ </div>
  <div class="nav-item"><%= link_to "Weapons", weapons_path, class:"nav-link" %></div>
  <div class="nav-item"><%= link_to "Maps", weapons_path, class:"nav-link" %></div>
  </ul>
-</div>
 </div>
        
 <div class="banner">
@@ -72,7 +71,7 @@
 </div>
 </div>
 
-<button class="btn-more">See more</button>
+<button class="btn-more">See m</button>
 
 
 
