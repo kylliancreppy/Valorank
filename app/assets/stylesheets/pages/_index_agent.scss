@@ -136,7 +136,37 @@ h2 {
 
 .rankhead {
   display:flex;
-  margin-left:22rem;
+  margin-left:23rem;
   column-gap: 5rem ;
   font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+}
+
+.rankcontain {
+  display: flex;
+  column-gap: 5rem ;
+margin-left: 3.5rem;
+margin-top: 2.5rem;
+}
+
+.btn-more {
+  margin-top: 1rem;
+  margin-left: 20rem;
+  height: 3rem;
+  width:6rem;
+  border:2px solid white;
+  background-color: black;
+  box-shadow: inset 0 0 0 0 #A2ABAB;
+  transition: ease-out 0.3s;
+  outline: none;
+  color: white;
+  font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+  
+}
+
+.btn-more:hover {
+  box-shadow: inset 300px 0 0 0 #A2ABAB;
+  cursor: pointer;
+  color: #000;
+  font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+  border: 2px solid black;
 }
