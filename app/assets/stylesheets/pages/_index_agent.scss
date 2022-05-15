@@ -23,6 +23,16 @@
     src: url('/assets/MilkyNice-Clean');
   }
 
+  @font-face {
+    font-family: 'Coco-Sharp-Bold-Italic-trial';
+    src: url('assets/Coco-Sharp-Bold-Italic-trial.ttf');
+  }
+
+  @font-face {
+    font-family: 'Adlinnaka-BoldDemo';
+    src: url('assets/Adlinnaka-BoldDemo.ttf');
+  }
+
 body {
   background-color: #EFF1F3;
 }
@@ -50,7 +60,7 @@ a:hover
 }
 
 a {
-    color: black;
+    color: rgb(226, 224, 224);
 }
 
 .card-weapon-content {
@@ -205,6 +215,6 @@ margin-top: 2.5rem;
 .nav-link {
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
 }
