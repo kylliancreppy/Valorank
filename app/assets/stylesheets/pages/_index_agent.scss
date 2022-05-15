@@ -46,7 +46,7 @@ color: white;
 a:hover
 {
   text-decoration: none;
-  color : #e63946;
+  color : white;
 }
 
 a {
@@ -124,7 +124,8 @@ a {
     font-family: 'Valorant', 'Arial Black', sans-serif;
     justify-content: center;
     font-size: 1.5rem;
-    color: black
+    color: white;
+    margin-left: 2rem;
 }
 .navbar-brand:hover {
   color:black;
@@ -177,7 +178,33 @@ margin-top: 2.5rem;
   border: 2px solid black;
 }
 .navb {
-  padding: 1.5rem;
-  background-color: white;
+  display: flex;
+  align-items: center;
+  background-color: #7D8491;
   color: black;
+}
+
+
+.itemcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navb li {
+  display: inline-block;
+}
+
+.navbar-n {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
 }

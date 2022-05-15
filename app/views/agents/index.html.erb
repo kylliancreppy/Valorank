@@ -3,13 +3,34 @@
     <%= "Valorank" %>
   <% end %>
 
-      <ul class="navbar-nav">
+  <ul class="navbar-n">
+  <li>
  <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
- <%= image_tag "https://cdn-icons-png.flaticon.com/512/556/556206.png", height: 30 %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'user') %>
+ <%= "Agents" %>
+ </div>
  <% end %>
  </div>
- <div class="nav-item"><%= link_to "Weapons", weapons_path, class:"nav-link" %></div>
- <div class="nav-item"><%= link_to "Maps", weapons_path, class:"nav-link" %></div>
+ </li>
+ <li>
+ <div class="navitem"><%= link_to weapons_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'gun') %>
+ <%= "Weapons" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+ <li>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'map') %>
+ <%= "Maps" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
  </ul>
 </div>
        
@@ -71,7 +92,7 @@
 </div>
 </div>
 
-<button class="btn-more">See m</button>
+<button class="btn-more">See more</button>
 
 
 

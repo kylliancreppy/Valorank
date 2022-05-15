@@ -1,10 +1,4 @@
 @import "bootstrap/scss/bootstrap";
 @import "pages/index";
 
-@font-face {
-    font-family: 'Gameplay.ttf';
-    src: url('<%= asset_path("Gameplay.eot") %>');
-    src: url('<%= asset_path("Gameplay.eot#iefix") %>') format('embedded-opentype'),
-         url('<%= asset_path("Gameplay.woff") %>') format('woff'),
-         url('<%= asset_path("Gameplay.ttf") %>') format('truetype');
-}
+@import "font-awesome";
