@@ -53,19 +53,9 @@ justify-content: center;
 color: white;
 }
 
-a:hover
-{
+
+a:hover {
   text-decoration: none;
-  color : white;
-}
-
-a {
-    color: rgb(226, 224, 224);
-}
-
-.card-weapon-content {
-    background-color: rgb(65, 68, 61);
-    border: 1px solid black;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link {
@@ -138,7 +128,7 @@ a {
     margin-left: 2rem;
 }
 .navbar-brand:hover {
-  color:black;
+  color: white;
 }
 
 h2 {
@@ -190,7 +180,7 @@ margin-top: 2.5rem;
 .navb {
   display: flex;
   align-items: center;
-  background-color: #7D8491;
+  background-color: #000000;
   color: black;
 }
 
@@ -213,8 +203,45 @@ margin-top: 2.5rem;
 }
 
 .nav-link {
+  color: rgb(126, 125, 125);
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 1.5rem;
   font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color : white;
+}
+////////////////////////////////////////////////////////////////////////////////
+
+.card-weapon {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-weapon-content {
+  display:flex;
+  flex-direction: column;
+  font-family: 'Tungsten-Bold' ,arial,georgia,sans-serif;
+  border: 2px solid black;
+  margin: 1rem;
+  transition: transform .4s;
+  background-color: white;
+  padding: 1rem;
+  
+}
+
+.card-weapon-content:hover {
+  transform: scale(1.3);
+}
+
+.weapon-text {
+  display: flex;
+  justify-content: space-between;
 }

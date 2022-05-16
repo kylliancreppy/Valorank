@@ -1,0 +1,53 @@
+<div class="navb">
+  <%= link_to agents_path, class: "navbar-brand" do %>
+    <%= "Valorank" %>
+  <% end %>
+
+  <ul class="navbar-n">
+  <li>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'user') %>
+ <%= "AGENTS" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+ <li>
+ <div class="navitem"><%= link_to weapons_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'gun') %>
+ <%= "WEAPONS" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+ <li>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'map') %>
+ <%= "MAPS" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+  <li>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'ranking-star') %>
+ <%= "RANKING" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+  <li>
+ <div class="navitem"><%= link_to agents_path, class:"nav-link" do %>
+ <div class="itemcontent">
+ <%= icon('fa-solid', 'percent') %>
+ <%= "STATS" %>
+ </div>
+ <% end %>
+ </div>
+ </li>
+ </ul>
+</div>

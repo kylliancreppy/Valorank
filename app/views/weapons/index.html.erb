@@ -1,33 +1,23 @@
-<div class="navbar navbar-expand-sm navbar-dark bg-dark">
-  <%= link_to agents_path, class: "navbar-brand" do %>
-    <%= "Barbelé" %>
-  <% end %>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-    </button>
-     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
- <div class="nav-item"><%= link_to "Agents", agents_path, class:"nav-link" %></div>
- <div class="nav-item"><%= link_to "Weapons", weapons_path, class:"nav-link" %></div>
- <div class="nav-item"><%= link_to "Maps", weapons_path, class:"nav-link" %></div>
- </ul>
-</div>
-</div>
-<h1>Weapons</h1>
+<h1>WEAPONS</h1>
+<div class="card-weapon">
 <% @weapons.each do |weapon| %>
 <% if weapon.photo.attached? %>
 <%= link_to weapon_path(weapon) do %>
-<div class="card-weapon">
 <div class="card-weapon-content">
 <%= cl_image_tag weapon.photo.key, height: 100, width: 300, crop: :fill %>
-<%= weapon.name %>
+<div class="weapon-text">
+<%= weapon.name.upcase %>
+<div>
 <%= weapon.price %> 
+<%= icon('fa-solid','coins') %> 
+</div>
+</div>
 </div>
 
 <% end %>
 
-</div>
 
 <% end %>
 
 <%end%>
+</div>
